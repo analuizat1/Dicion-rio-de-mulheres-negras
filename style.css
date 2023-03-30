@@ -10,8 +10,10 @@ header {
 }
 
 header p {
-  color: #000;
-  font-weight: 300px;
+  color: #fff;
+  font-size: medium;
+  font-family: Open sans;
+  font-weight: 200px;
 }
 
 h1 {
@@ -50,6 +52,8 @@ section {
 .cards details summary {
   font-size: 18px;
   padding: 10px;
+  color: #21150d;
+  font-weight: 400px;
 }
 .cards details p {
   padding: 0 10px;
