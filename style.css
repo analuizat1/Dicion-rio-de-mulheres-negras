@@ -1,15 +1,24 @@
 body {
-  font-family: Open Sans, sans-serif;
+  font-family: "Poppins", sans-serif;
+  background-color: #614330;
 }
 header {
   height: 100px;
   border-bottom: 1px solid #000;
   margin-bottom: 40px;
+  text-align: center;
 }
+
+header p {
+  color: #000;
+  font-weight: 300px;
+}
+
 h1 {
   text-transform: uppercase;
   margin-bottom: 0px;
-  color: #462d1d;
+  color: #fff;
+  text-align: center;
 }
 section {
   margin: 0 auto;
@@ -23,11 +32,15 @@ section {
   border: 1px solid #000;
   vertical-align: top;
   max-width: 100%;
+  border-radius: 4px;
+  background-color: #997761;
+  border: none;
 }
 .cards img {
   display: block;
   width: 300px;
   height: 300px;
+  border-radius: 4px 4px 0 0;
 }
 .cards details {
   width: 300px;
